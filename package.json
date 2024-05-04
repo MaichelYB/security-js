@@ -1,6 +1,6 @@
 {
   "name": "security-js-impl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sample library to do encrypt decrypt process",
   "main": "index.js",
   "type": "module",
