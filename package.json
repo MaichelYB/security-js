@@ -12,13 +12,21 @@
     "decrypt",
     "security"
   ],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "concat-typed-array": "^2.1.0",
     "libsodium-wrappers": "^0.7.13",
     "scryptsy": "^2.1.0",
     "tweetnacl": "^1.0.3",
     "tweetnacl-util": "^0.15.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaichelYB/security-js"
+  },
+  "bugs": {
+    "url": "https://github.com/MaichelYB/security-js/issues"
+  },
+  "homepage": "https://github.com/MaichelYB/security-js#readme",
+  "author": "Maichel yunarto609@gmail.com",
+  "license": "MIT"
 }
