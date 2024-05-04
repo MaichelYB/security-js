@@ -1,5 +1,5 @@
 {
-  "name": "securityjs",
+  "name": "security-js-impl",
   "version": "1.0.0",
   "description": "Sample library to do encrypt decrypt process",
   "main": "index.js",
