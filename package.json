@@ -1,0 +1,24 @@
+{
+  "name": "securityjs",
+  "version": "1.0.0",
+  "description": "Sample library to do encrypt decrypt process",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "security"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concat-typed-array": "^2.1.0",
+    "libsodium-wrappers": "^0.7.13",
+    "scryptsy": "^2.1.0",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  }
+}
