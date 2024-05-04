@@ -10,8 +10,8 @@ export function Decrypt(privateKey, dataToDecrypt) {
     const decryptedData = privateDecrypt({
         key: privateKey,
         padding: constants.RSA_PKCS1_PADDING
-    }, Buffer.from(dataToDecrypt, 'utf8'));
+    }, Buffer.from(dataToDecrypt, 'base64'));
 
-    console.log('Encrypted data in Node.js:', dataToDecrypt.toString('base64'));
-    return dataToDecrypt.toString('base64')
+    console.log('Encrypted data in Node.js:', dataToDecrypt.toString('utf8'));
+    return dataToDecrypt.toString('utf8')
 }
